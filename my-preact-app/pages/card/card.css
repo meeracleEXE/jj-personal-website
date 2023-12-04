@@ -1,0 +1,51 @@
+.card-wrapper{
+    padding: 20px;
+    background-color: #001730;
+    border-radius: 5px;
+    width: 80vw;
+    height: 60px;   
+}
+
+.expanded {
+    animation: expand 500ms ease-in alternate;
+    height: 630px;
+    background-color: #001D3D;
+}
+
+.card-wrapper:hover{
+    transition: 0.5s;
+    background-color: #001225;
+}
+
+.card-content{
+    animation: second_text_anim 1s linear;
+}
+
+p {
+    text-align: left;
+}
+
+.video-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 380px;
+}
+
+@keyframes second_text_anim {
+    from {
+      opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+  }
+
+@keyframes expand {
+    from {
+        height: 60px;
+    }
+    80% {
+        height: 630px;
+    }
+}
