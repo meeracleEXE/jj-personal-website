@@ -1,20 +1,27 @@
-import preactLogo from '../assets/preact.svg';
 import './style.css';
-import Projects from '../projects'
+import AboutMe from '../aboutme';
+import Projects from '../projects';
+import Exp from '../exp';
+import Academic from '../academic';
 
 export function Page() {
 	return (
 		<div class='page-content'>
 			<section id='about-me-section'>
-				<h1>ABOUT ME</h1>
-
+				<h1>About Me</h1>
+				<AboutMe/>
 			</section>
 			<section id='project-section'>
-				<h1>PROJECTS</h1>
+				<h1>Projects</h1>
 				<Projects/>
 			</section>
+			<section id='exp-section'>
+				<h1>Experiences</h1>
+				<Exp/>
+			</section>
 			<section id='academic-section'>
-				<h1>ACADEMIC</h1>
+				<h1>Academic</h1>
+				<Academic/>
 			</section>
 		</div>
 	);

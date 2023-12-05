@@ -1,0 +1,58 @@
+#header-text {
+    text-align: left;
+    font-size: 2vw;
+}
+
+#big {
+    font-size: 3vw;
+}
+
+#emphasis-text {
+    color: #FFD60A;
+}
+
+.about-grid {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    height: fit-content;
+    align-items: center;
+    margin-left: -200px;
+    padding-left: 200px;
+    margin-right: -200px;
+    padding-right: 200px;
+    background: linear-gradient( #001124, #001D3D, #001124);
+    box-shadow: #000 -5px 5px 10px;
+    animation: fly-from-right 1s;
+}
+
+p a {
+    text-decoration: none;
+    color: #FFC300;
+}
+
+.about-grid:hover {
+    transition: 0.8s;
+    box-shadow: #000 -8px 8px 15px;
+}
+
+#profile-pic {
+    margin-bottom: 0px;
+    width: 400px;
+}
+
+.text-box {
+    margin-left: 30px;
+    margin-right: 20px;
+    height: fit-content;
+}
+
+@keyframes fly-from-right {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+    
+}

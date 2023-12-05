@@ -11,28 +11,14 @@ img {
 	margin-bottom: 1.5rem;
 }
 
-img:hover {
-	filter: drop-shadow(0 0 2em #673ab8aa);
+#project-section, #academic-section{
+	padding-top: 5px;
+	margin-top: 35px;
+	background-color: #001730;
 }
 
-.resource {
-	padding: 0.75rem 1.5rem;
-	border-radius: 0.5rem;
-	text-align: left;
-	text-decoration: none;
-	color: #222;
-	background-color: #f1f1f1;
-	border: 1px solid transparent;
-}
-
-.resource:hover {
-	border: 1px solid #000;
-	box-shadow: 0 25px 50px -12px #673ab888;
-}
-
-
-#project-section, #academic-section, #about-me-section {
-	padding-top: 50px;
+#project-section {
+	padding-bottom: 35px;
 }
 
 @media (max-width: 639px) {
@@ -43,14 +29,11 @@ img:hover {
 	}
 }
 
-@media (prefers-color-scheme: dark) {
-	.resource {
-		color: #ccc;
-		background-color: #161616;
-	}
-	.resource:hover {
-		border: 1px solid #bbb;
-	}
+.page-content {
+	margin-top: 2%;
+	width: 100%;
+	border-radius: 50px;
+	background-color: #000814;
 }
 
 #project-section {
@@ -59,4 +42,10 @@ img:hover {
 
 html {
 	scroll-behavior: smooth;
+}
+
+h1 {
+	text-align: left;
+	padding-left: 30px;
+	font-size: 2vw;
 }
