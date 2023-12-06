@@ -18,7 +18,7 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entries/entry-client-routing.28ebf39b.js",
+    "file": "assets/entries/entry-client-routing.6cd9b64d.js",
     "imports": [
       "_chunk-60250769.js"
     ],
@@ -32,7 +32,7 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entries/entry-server-routing.c1f7e7b4.js",
+    "file": "assets/entries/entry-server-routing.7f0fd833.js",
     "imports": [
       "_chunk-60250769.js"
     ],
@@ -47,6 +47,10 @@
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "pages/404.page.jsx"
+  },
+  "pages/assets/RESUME (CS) - Jun Jie Wong.pdf": {
+    "file": "assets/static/RESUME--CS----Jun-Jie-Wong.dea02a8c.pdf",
+    "src": "pages/assets/RESUME (CS) - Jun Jie Wong.pdf"
   },
   "pages/assets/demo_videos/c8_cinema_admin.webm": {
     "file": "assets/static/c8_cinema_admin.f68813ee.webm",
@@ -128,13 +132,14 @@
   },
   "renderer/_default.page.client.jsx": {
     "assets": [
+      "assets/static/RESUME--CS----Jun-Jie-Wong.dea02a8c.pdf",
       "assets/static/jjheadshot.5a800107.jpg",
       "assets/static/linkedin-icon.8d743f0f.png",
       "assets/static/github-icon.d83ddf4e.png",
       "assets/static/location-icon.3584afc6.png",
       "assets/static/mail-icon.ff3cc82c.png"
     ],
-    "file": "assets/entries/renderer_default.page.client.075a6d5a.js",
+    "file": "assets/entries/renderer_default.page.client.57b49a4d.js",
     "imports": [
       "_chunk-ff662f90.js",
       "_chunk-683a141f.js",

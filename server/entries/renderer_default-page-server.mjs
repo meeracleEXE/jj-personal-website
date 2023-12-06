@@ -14,6 +14,7 @@ function PageContextProvider({
   });
 }
 const PageShell$1 = "";
+const pdf = "/jj-personal-website/assets/static/RESUME--CS----Jun-Jie-Wong.dea02a8c.pdf";
 const pic = "/jj-personal-website/assets/static/jjheadshot.5a800107.jpg";
 const linkedin = "/jj-personal-website/assets/static/linkedin-icon.8d743f0f.png";
 const github = "/jj-personal-website/assets/static/github-icon.d83ddf4e.png";
@@ -101,8 +102,8 @@ function Header({
         children: "Experience"
       })]
     }), jsx("a", {
-      href: "/pages/assets/RESUME (CS) - Jun Jie Wong.pdf",
-      download: "Jun Jie Wong - RESUME",
+      href: pdf,
+      download: "Jun Jie Wong - RESUME.pdf",
       id: "dl",
       children: "Download CV"
     }), jsx("hr", {
@@ -198,8 +199,8 @@ async function render(pageContext) {
   const {
     documentProps
   } = pageContext.exports;
-  const title = documentProps && documentProps.title || "Vite SSR + Preact";
-  const desc = documentProps && documentProps.description || "Preact app with Vite and vike";
+  const title = documentProps && documentProps.title || "Jun Jie Wong";
+  const desc = documentProps && documentProps.description || "Personal Website for Jun Jie Wong";
   const documentHtml = escapeInject`<!DOCTYPE html>
 		<html lang="en">
 		<head>
