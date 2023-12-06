@@ -55,32 +55,28 @@ function Header({
     }), jsx("nav", {
       id: "links",
       children: jsxs("ul", {
-        children: [jsx("li", {
-          children: jsx("img", {
+        children: [jsxs("li", {
+          children: [jsx("img", {
             style: {
               marginBottom: 0
             },
             src: locationIcon,
             alt: "location icon"
-          })
-        }), jsx("li", {
-          children: jsx("p", {
+          }), jsx("p", {
             children: "Athens, GA"
-          })
-        }), jsx("li", {
-          children: jsx("img", {
+          })]
+        }), jsxs("li", {
+          children: [jsx("img", {
             style: {
               marginBottom: 0
             },
             src: mailIcon,
             alt: "location icon"
-          })
-        }), jsx("li", {
-          children: jsx("a", {
+          }), jsx("a", {
             id: "mail",
             href: "mailto:junjiewong.99@gmail.com",
             children: "junjiewong.99@gmail.com"
-          })
+          })]
         })]
       })
     }), jsx("hr", {
