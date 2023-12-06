@@ -5,5 +5,5 @@ import ssr from 'vike/plugin';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [preact(), ssr({ prerender: true })],
-	base: '/jj-personal-website/'
+	base: "/jj-personal-website/",
 });
