@@ -1,0 +1,11 @@
+{
+  "version": "0.4.147",
+  "usesClientRouter": false,
+  "manifestKeyMap": {},
+  "baseServer": "/jj-personal-website/",
+  "baseAssets": "/jj-personal-website/",
+  "includeAssetsImportedByServer": true,
+  "redirects": {},
+  "trailingSlash": false,
+  "disableUrlNormalization": false
+}
