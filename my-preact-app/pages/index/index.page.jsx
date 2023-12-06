@@ -11,17 +11,17 @@ export function Page() {
 				<h1>About Me</h1>
 				<AboutMe/>
 			</section>
+			<section id='academic-section'>
+				<h1>Education</h1>
+				<Academic/>
+			</section>
 			<section id='project-section'>
 				<h1>Projects</h1>
 				<Projects/>
 			</section>
 			<section id='exp-section'>
-				<h1>Experiences</h1>
+				<h1>Experience</h1>
 				<Exp/>
-			</section>
-			<section id='academic-section'>
-				<h1>Academic</h1>
-				<Academic/>
 			</section>
 		</div>
 	);

@@ -4,10 +4,10 @@ export default function Card({proj, project, setProject}) {
     return(
         project !== proj.id ? 
         <div class='card-wrapper' onClick={() => setProject(proj.id)}>
-            <h1>{proj.title}</h1>
+            <h2><div class='arrow up'/> {proj.title} </h2>  
         </div> : 
         <div class='card-wrapper expanded' onClick={() => setProject(-1)}>
-            <h1>{proj.title}</h1>
+            <h2><div class='arrow down'/> {proj.title}</h2>
             <div class='card-content'>
             <h3>{proj.description}</h3>
             <p>Tools: {proj.tools}</p>

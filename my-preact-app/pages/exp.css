@@ -1,7 +1,6 @@
 .exp-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    row-gap: 30px;
-    column-gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    border-radius: 20px;
 }

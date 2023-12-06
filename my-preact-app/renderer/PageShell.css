@@ -22,9 +22,30 @@ YELLOW: #FFD60A
 	-webkit-text-size-adjust: 100%;
 }
 
+h1 {
+	font-family: 'Playfair Display', serif;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
 body {
 	margin: 0 auto;
 	overflow-x: hidden;
+}
+
+nav#nav {
+	margin-bottom: 10px;
 }
 
 #app {
@@ -35,8 +56,8 @@ body {
 
 #profile-card {
 	padding: 20px 20px 10px 20px;
-	border-top-left-radius: 50px;
-	border-top-right-radius: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	background-color: #2020206b;
 	display:flex;
 	flex-direction: column;
@@ -65,10 +86,9 @@ header {
 	display: flex;
 	flex-direction: column;
 	background-color: #000814;
-	border-radius: 50px;
+	border-radius: 10px;
 	border: none;
 	position: fixed;
-	padding-bottom: 40px;
 	left: 20px;
 	top: 2.5%;
 	z-index: 1030; /* to prevent the navbar getting covered up by other content */
@@ -97,18 +117,10 @@ header nav {
 	flex-direction: column;
 }
 
-nav#nav{
-	background-color: #2020206b;
-}
-
 header a {
 	color: #fff;
 	padding: 0.75rem;
 	text-decoration: none;
-}
-
-header a.active {
-	background-color: #fff5;
 }
 
 header a:hover {
@@ -116,17 +128,19 @@ header a:hover {
 }
 
 .socials {
-	margin: 10px auto;
-	width: 40%;
+	margin-top: 20px;
+	padding: 20px 0px 20px 0px;
+	background-color: #2020206b;
+	width: 100%;
 	display:flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 header a.button-link{
 	display:block;
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 	border-radius: 4px;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
@@ -134,7 +148,7 @@ header a.button-link{
 
 #links {
 	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 a#dl {
@@ -159,10 +173,14 @@ a#dl:hover {
 	column-gap: 12px;
 	row-gap: 10px;
 	padding-left: 20px;
-	margin: 10px 0 20px 0;
+	margin: 10px 0 0px 0;
 	width: 100%;
 }
-
+h2#tools{
+	font-size: 1vw;
+	padding: 20px;
+	padding-bottom: 5px;
+}
 li {
 	height: 24px;
 }
@@ -177,6 +195,7 @@ li a{
 
 li p {
 	margin: 0 0 0 0;
+	font-size: 1.1vw;
 }
 
 a#mail:hover {
@@ -189,8 +208,8 @@ a#mail:hover {
 	margin: 0 0 3px 0;
 	padding: 3px 3px 3px 3px;
 	border-radius: 4px;
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 	background-color: #666;
 }
 
@@ -218,3 +237,61 @@ main {
 		background-color: #1a1a1a;
 	}
 }
+
+.progress {
+	width:100%;
+	height:5px;
+	background:
+	 linear-gradient(rgb(6, 88, 10) 0 0) 0/0% no-repeat
+	 #ddd;
+  }	
+
+  .progress.five {
+	background-size: 100%;
+
+  }
+  .progress.four {
+	background-size: 80%;
+  }	
+
+  .progress.three {
+	background-size: 60%;
+  }	
+
+  .progress.two {
+	background-size: 40%;
+  }	
+
+  .progress.one {
+	background-size: 20%;
+  }	
+
+  .language-grid {
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 5px;
+	align-items: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 10px;
+  }
+
+  .language-grid h2 {
+	font-size: 0.8vw
+  }
+  
+  h1#grid-title{
+	margin: 10px 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+	font-size: 1.2vw;
+  }
+
+  hr#divider {
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	filter: brightness(80%);
+  }

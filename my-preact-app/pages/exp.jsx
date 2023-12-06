@@ -10,25 +10,25 @@ export default function Exp() {
         {
             title:'Peer Tutor',
             location:'University of Georgia, Athens',
-            time:'September 2022 - December 2023',
+            time:'Sep 2022 - Present',
             pic:notePic
         },
         {
             title:'Teaching Assistant',
             location:'University of Georgia, Athens',
-            time:'January 2023 - April 2023',
+            time:'Jan 2023 - Apr 2023',
             pic:applePic
         },
         {
             title:'Vice President',
             location:'International Student Events',
-            time:'January 2020 - December 2020',
+            time:'Jan 2020 - Dec 2020',
             pic:globePic
         },
         {
             title:'Exchange Student',
             location:'AFS Malaysia to Germany',
-            time:'March 2017 - January 2018',
+            time:'Mar 2017 - Jan 2018',
             pic:travelPic
         },
     ]

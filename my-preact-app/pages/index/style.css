@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Playfair+Display:wght@500&family=Quicksand:wght@300;500&display=swap');
+
 /*
 Color palette:
 BLACK: #000814
@@ -11,13 +13,14 @@ img {
 	margin-bottom: 1.5rem;
 }
 
-#project-section, #academic-section{
+#exp-section, #academic-section{
 	padding-top: 5px;
 	margin-top: 35px;
 	background-color: #001730;
+	border-radius: 10px;
 }
 
-#project-section {
+#academic-section {
 	padding-bottom: 35px;
 }
 
@@ -32,8 +35,15 @@ img {
 .page-content {
 	margin-top: 2%;
 	width: 100%;
-	border-radius: 50px;
+	border-radius: 10px;
 	background-color: #000814;
+	box-shadow: #000814 0px 0px 5px 3px;
+	margin-bottom: 2%;
+}
+
+.page-content:hover {
+	transition: 1s;
+	box-shadow: #000814 0px 0px 5px 5px;
 }
 
 #project-section {
