@@ -3,4 +3,12 @@
     justify-content: space-evenly;
     padding-bottom: 50px;
     border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 639px) {
+ .exp-grid {
+    flex-wrap: wrap;
+ }   
 }
