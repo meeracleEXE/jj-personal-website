@@ -14,7 +14,6 @@ function PageContextProvider({
   });
 }
 const PageShell$1 = "";
-const pdf = "/jj-personal-website/assets/static/RESUME--CS----Jun-Jie-Wong.dea02a8c.pdf";
 const pic = "/jj-personal-website/assets/static/jjheadshot.5a800107.jpg";
 const linkedin = "/jj-personal-website/assets/static/linkedin-icon.8d743f0f.png";
 const github = "/jj-personal-website/assets/static/github-icon.d83ddf4e.png";
@@ -102,10 +101,10 @@ function Header({
         children: "Experience"
       })]
     }), jsx("a", {
-      href: pdf,
-      download: "Jun Jie Wong - RESUME.pdf",
+      href: "https://docs.google.com/document/d/1eUjjUdWct1K2DCnSysC4tHUnC_ohLs_ZwBQajckjXBY/edit?usp=sharing",
+      target: "_blank",
       id: "dl",
-      children: "Download CV"
+      children: "View CV"
     }), jsx("hr", {
       id: "divider"
     }), jsx("h1", {

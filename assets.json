@@ -18,7 +18,7 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entries/entry-client-routing.6cd9b64d.js",
+    "file": "assets/entries/entry-client-routing.fe2bdc3e.js",
     "imports": [
       "_chunk-60250769.js"
     ],
@@ -32,7 +32,7 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entries/entry-server-routing.7f0fd833.js",
+    "file": "assets/entries/entry-server-routing.180fc760.js",
     "imports": [
       "_chunk-60250769.js"
     ],
@@ -132,14 +132,13 @@
   },
   "renderer/_default.page.client.jsx": {
     "assets": [
-      "assets/static/RESUME--CS----Jun-Jie-Wong.dea02a8c.pdf",
       "assets/static/jjheadshot.5a800107.jpg",
       "assets/static/linkedin-icon.8d743f0f.png",
       "assets/static/github-icon.d83ddf4e.png",
       "assets/static/location-icon.3584afc6.png",
       "assets/static/mail-icon.ff3cc82c.png"
     ],
-    "file": "assets/entries/renderer_default.page.client.57b49a4d.js",
+    "file": "assets/entries/renderer_default.page.client.9d794d39.js",
     "imports": [
       "_chunk-ff662f90.js",
       "_chunk-683a141f.js",
