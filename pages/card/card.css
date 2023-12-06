@@ -112,6 +112,14 @@ p {
     row-gap: 30px;
 }
 
+
+@media (max-width: 450px) {
+	.edu-grid {
+        display:flex;
+        flex-direction: column;
+    }
+}
+
 .edu-grid h1,h2 {
     margin: 0 0 0 0;
 }

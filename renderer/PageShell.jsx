@@ -31,14 +31,10 @@ export function Header({ url }) {
 			<ul>
 					<li>
 						<img style={{marginBottom:0}} src={locationIcon} alt='location icon'/>
-					</li>
-					<li>
-					<p>Athens, GA</p>
+						<p>Athens, GA</p>
 					</li>
 					<li>
 					<img style={{marginBottom:0}} src={mailIcon} alt='location icon'/>
-					</li>
-					<li>
 					<a id='mail' href='mailto:junjiewong.99@gmail.com'>
 					junjiewong.99@gmail.com
 					</a>

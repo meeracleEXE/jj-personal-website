@@ -77,6 +77,7 @@ nav#nav {
 }
 
 #profile-card h3{
+	text-align: center;
 	margin: 0 0 0 0;
 	font-size: 14px;
 	color: #888;
@@ -179,6 +180,7 @@ a#dl:hover {
 
 li {
 	height: 24px;
+	display: flex;
 }
 
 li img {
@@ -187,10 +189,11 @@ li img {
 
 li a{
 	padding: 0 0 0 0;
+	margin-left: 5px;
 }
 
 li p {
-	margin: 0 0 0 0;
+	margin: 0 0 0 5px;
 	font-size: 15px;
 }
 
@@ -223,8 +226,8 @@ main {
 
 @media (max-width: 639px) {
 	#app {
-		margin: 2rem;
-		width: 100vw;
+		margin: 2vw;
+		width: 96vw;
 		display: block;
 	}
 
@@ -237,12 +240,15 @@ main {
 	nav#links ul{
 		display: flex;
 		justify-content: space-evenly;
+		padding-left: 0;
+		flex-wrap: wrap;
 	}
 
 	nav#nav {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+		flex-wrap: wrap;
 	}
 	
 	main {
