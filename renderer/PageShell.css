@@ -11,9 +11,9 @@ YELLOW: #FFD60A
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
-
-	color: #222;
-	background-color: #ffffff;
+	
+	color: #ccc;
+	background-color: #1a1a1a;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -176,11 +176,7 @@ a#dl:hover {
 	margin: 10px 0 0px 0;
 	width: 100%;
 }
-h2#tools{
-	font-size: 1vw;
-	padding: 20px;
-	padding-bottom: 5px;
-}
+
 li {
 	height: 24px;
 }
@@ -228,13 +224,29 @@ main {
 @media (max-width: 639px) {
 	#app {
 		margin: 2rem;
+		width: 100vw;
+		display: block;
 	}
-}
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		color: #ccc;
-		background-color: #1a1a1a;
+	header {
+		left: 0;
+		position: relative;
+		width: 100%;
+	}
+
+	nav#links ul{
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	nav#nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	
+	main {
+		width: 100%;
 	}
 }
 
