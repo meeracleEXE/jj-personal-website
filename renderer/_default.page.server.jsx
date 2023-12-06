@@ -18,9 +18,9 @@ async function render(pageContext) {
 
 	// See https://vike.dev/head
 	const { documentProps } = pageContext.exports;
-	const title = (documentProps && documentProps.title) || 'Vite SSR + Preact';
+	const title = (documentProps && documentProps.title) || 'Jun Jie Wong';
 	const desc =
-		(documentProps && documentProps.description) || 'Preact app with Vite and vike';
+		(documentProps && documentProps.description) || 'Personal Website for Jun Jie Wong';
 
 	const documentHtml = escapeInject`<!DOCTYPE html>
 		<html lang="en">

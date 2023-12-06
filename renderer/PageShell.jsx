@@ -1,5 +1,6 @@
 import { PageContextProvider } from './usePageContext';
 import './PageShell.css';
+import pdf from '../pages/assets/RESUME (CS) - Jun Jie Wong.pdf'
 import pic from '../pages/assets/jjheadshot.jpg'
 import linkedin from '../pages/assets/linkedin-icon.png'
 import github from '../pages/assets/github-icon.png'
@@ -59,7 +60,7 @@ export function Header({ url }) {
 					Experience
 				</a>
 			</nav>
-			<a href='/pages/assets/RESUME (CS) - Jun Jie Wong.pdf' download='Jun Jie Wong - RESUME' id='dl'>Download CV</a>
+			<a href="https://docs.google.com/document/d/1eUjjUdWct1K2DCnSysC4tHUnC_ohLs_ZwBQajckjXBY/edit?usp=sharing" target='_blank' id='dl'>View CV</a>
 			<hr id='divider'/>
 			<h1 id='grid-title'>Technical</h1>
 			<div class='language-grid'>
