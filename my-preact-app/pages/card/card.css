@@ -170,9 +170,13 @@ h2#date {
 #square-card h2{
     color: #FFD60A;
     padding-left: 0;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     margin: 0 auto;
     text-align: center;
+}
+
+#square-card h3{
+    margin-top: 2px;
 }
 
 @keyframes second_text_anim {
