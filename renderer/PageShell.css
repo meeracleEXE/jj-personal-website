@@ -169,10 +169,8 @@ a#dl:hover {
 
 #links ul {
 	list-style: none;
-	display: grid;
-	grid-template-columns: 1fr 10fr;
-	column-gap: 12px;
-	row-gap: 10px;
+	display: flex;
+	flex-direction: column;
 	padding-left: 20px;
 	margin: 10px 0 0px 0;
 	width: 100%;
