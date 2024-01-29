@@ -140,7 +140,7 @@ function Exp() {
   const expList = [{
     title: "Peer Tutor",
     location: "University of Georgia, Athens",
-    time: "Sep 2022 - Present",
+    time: "Sep 2022 - Dec 2023",
     pic: notePic
   }, {
     title: "Teaching Assistant",
